@@ -1,0 +1,74 @@
+[package]
+name = "inferno-blockchain"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dominic Walther"]
+description = "A modular, high-performance blockchain built with Rust"
+repository = "https://github.com/inferno-chain/inferno-blockchain"
+license = "MIT OR Apache-2.0"
+
+[workspace]
+members = []
+
+[dependencies]
+tokio = { version = "1.44.1", features = ["full"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tch = "0.19.0"
+log = "0.4"
+env_logger = "0.11"
+rand = "0.8"
+hex = "0.4"
+sha2 = "0.10"
+libp2p = { version = "0.55.0", features = ["tcp", "tokio", "noise", "yamux", "ping", "gossipsub"] } # "gossipsub" hinzugefügt
+schnorrkel = { version = "0.11.4", features = ["serde"] } # "serde" hinzugefügt
+futures = "0.3"
+zstd = "0.13.3"
+threshold_crypto = "0.4.0"
+chrono = "0.4"
+bloomfilter = "1.0.13"
+dotenv = "0.15"
+
+# Substrate-Abhängigkeiten
+sp-core = "36.0.0"
+sp-runtime = "40.1.0"
+sp-std = "14.0.0"
+substrate-bip39 = "0.6.0"
+
+[features]
+default = ["core"]
+core = []
+symbiose_flames = []
+token_vault = []
+infernal_dex_flamepools = []
+interchain_flamegate = []
+token_flames = []
+infernal_governance = []
+soulflame_system = []
+infernal_mev_flames = []
+no_code_forge = []
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.1"
+tempfile = "3.12"
+
+[build-dependencies]
+substrate-build-script-utils = "3.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[[bin]]
+name = "test_serde"
+path = "src/bin/test_serde.rs"
+
+[[test]]
+name = "consensus_bench"
+path = "benchmarks/consensus_bench.rs"
+
+[[test]]
+name = "full_consensus_real"
+path = "tests/full_consensus_real.rs"

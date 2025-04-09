@@ -1,0 +1,1 @@
+Result<infernal_types_flamekeeper::Flamekeeper, core::error::InfernoError>

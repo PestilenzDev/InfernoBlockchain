@@ -1,0 +1,10 @@
+/Users/dominicwalther/projects/Inferno-Blockchain/inferno-blockchain/target/debug/deps/libserdect-cf10145239aa5911.rmeta: /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/lib.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/array.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/slice.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/../README.md
+
+/Users/dominicwalther/projects/Inferno-Blockchain/inferno-blockchain/target/debug/deps/libserdect-cf10145239aa5911.rlib: /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/lib.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/array.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/slice.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/../README.md
+
+/Users/dominicwalther/projects/Inferno-Blockchain/inferno-blockchain/target/debug/deps/serdect-cf10145239aa5911.d: /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/lib.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/array.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/slice.rs /Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/../README.md
+
+/Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/lib.rs:
+/Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/array.rs:
+/Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/slice.rs:
+/Users/dominicwalther/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serdect-0.2.0/src/../README.md:

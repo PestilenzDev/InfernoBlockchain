@@ -1,0 +1,1 @@
+Result<infernal_types_flamecall::Flamecall, core::error::InfernoError>

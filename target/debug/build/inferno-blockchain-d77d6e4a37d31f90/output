@@ -1,0 +1,5 @@
+cargo:rustc-link-search=native=libtorch/lib
+cargo:rustc-link-lib=dylib=torch_cpu
+cargo:rustc-link-lib=dylib=torch
+cargo:rustc-link-lib=dylib=c10
+cargo:rerun-if-changed=libtorch
